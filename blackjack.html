@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <link rel="stylesheet" href="vendor/css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container1 row">
+        <h1>Blackjack game</h1>
+        <h2><span id="resultBox">Let's play</span></h2>
+        <div id="flexBox1">
+            <div id="yourBox">
+                <h2>You: <span id="yourResult">0</span></h2>
+            </div>
+            <div id="dealerBox">
+                <h2>Dealer: <span id="dealerResult">0</span></h2>
+            </div>
+        </div>
+        <div id="flexBox2">
+            <div>
+                <button id="btnHit" class="btn btn-primary btnHit">Hit</button>
+                <button id="btnStand" class="btn btn-success btnStand">Stand</button>
+                <button id="btnDeal" class="btn btn-warning btnDeal">Deal</button>
+            </div>
+        </div>
+        <div id="flexBox3">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="winResult">0</span></td>
+                    <td><span id="lostResult">0</span></td>
+                    <td><span id="drawResult">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

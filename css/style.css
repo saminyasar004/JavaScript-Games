@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: default;
+    font-family: sans-serif;
+    overflow-X: hidden;
+    height: 100rem;
+}
+
+.row {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 2% 2%;
+    border-radius: 0.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger:focus {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+    box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+    box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.btn-warning {
+    color: #313738 !important;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:focus {
+    color: #313738;
+    background-color: #e0a800;
+    border-color: #d39e00;
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+
+.btn-warning:hover {
+    color: #313738;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-lg {
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 1% 3%;
+    border-radius: 0.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 1.6rem 1.6rem;
+}
+
+
+
+.container1 {
+    text-align: center;
+}
+
+.container1 h1,
+h2 {
+    margin: 2% 0 3% 0;
+    font-size: 3rem;
+}
+
+#flexBox1 {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+    color: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to right,
+            rgb(3 36 3),
+            rgb(29 91 29),
+            rgb(5 42 5));
+}
+
+#flexBox1 div img {
+    width: 25%;
+    margin: 1% 2%;
+    background: #fff;
+    border-radius: .3rem;
+}
+
+#flexBox1 div {
+    border: .1rem solid #000;
+    flex: 1;
+    height: 55rem;
+    padding: 1rem;
+}
+
+#flexBox2 {
+    background: linear-gradient(to right,
+            rgb(3 36 3),
+            rgb(29 91 29),
+            rgb(5 42 5));
+}
+
+#flexBox3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: .1 rem solid #000;
+    padding: 1rem;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: .1rem solid #000;
+    padding: 1rem;
+    font-size: 2rem;
+}
